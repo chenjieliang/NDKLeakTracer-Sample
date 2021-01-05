@@ -1,0 +1,23 @@
+# ninja log v5
+1	358	0	CMakeFiles/leak-tracer.dir/src/main/cpp/libleaktracer/src/AllocationHandlers.cpp.o	88b471ca53a1ad9f
+1	502	0	CMakeFiles/leak-tracer.dir/src/main/cpp/libleaktracer/src/MemoryTrace.cpp.o	33e5ea2560d3920
+502	514	0	libleak-tracer.a	dff0213e272ed4dd
+514	528	0	CMakeFiles/native-lib.dir/src/main/cpp/leak.c.o	7cf136dd102f8f38
+514	891	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+891	1129	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+1	383	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+383	613	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+1	430	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+430	663	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+1	440	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+440	674	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+0	419	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+419	657	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+0	416	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+416	649	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+0	424	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+424	660	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+1	427	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+427	661	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a
+0	511	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	7fa8a8912d48844c
+511	752	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	f8fec68b47f40b6a

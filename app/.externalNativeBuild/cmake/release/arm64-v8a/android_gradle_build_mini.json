@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "leak-tracer-Release-arm64-v8a": {
+      "artifactName": "leak-tracer",
+      "buildCommand": "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/arm64-v8a --target leak-tracer",
+      "abi": "arm64-v8a",
+      "output": "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/arm64-v8a/libleak-tracer.a"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

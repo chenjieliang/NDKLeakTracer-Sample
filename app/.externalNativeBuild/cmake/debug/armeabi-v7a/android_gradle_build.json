@@ -1,0 +1,72 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"leak-tracer-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "leak-tracer",
+			"buildCommand" : "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target leak-tracer",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../src/main/cpp/libleaktracer/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/src/main/cpp/libleaktracer/src/AllocationHandlers.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot   -I../../../../src/main/cpp/libleaktracer/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/src/main/cpp/libleaktracer/src/MemoryTrace.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libleak-tracer.a",
+			"toolchain" : "13831006385472940325"
+		},
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/zhengyuanlong/soft/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/libleaktracer/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/src/main/cpp/leak.c",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/libleaktracer/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/zhengyuanlong/soft/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "13831006385472940325"
+		}
+	},
+	"toolchains" : 
+	{
+		"13831006385472940325" : 
+		{
+			"cCompilerExecutable" : "/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/zhengyuanlong/soft/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

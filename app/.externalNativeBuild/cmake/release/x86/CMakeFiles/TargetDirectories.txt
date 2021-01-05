@@ -1,0 +1,4 @@
+/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/native-lib.dir
+/home/zhengyuanlong/jieliang/projects/my/github/NDKLeakTracerSample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/leak-tracer.dir
